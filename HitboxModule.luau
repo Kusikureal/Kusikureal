@@ -43,6 +43,8 @@ true,
 }
 if Players:FindFirstChild(hit.Parent.Name) then
 returningTable[3] = true
+else
+returningTable[3] = false
 end
    hits[hit.Parent.Name] = true
    return returningTable
