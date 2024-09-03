@@ -10,4 +10,4 @@ local function calculate(a, b, sign)
  end
 end
 
-print(calculate(10, 20, *)) 
+print(calculate(10, 20, "*")) 
